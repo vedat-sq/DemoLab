@@ -1,6 +1,6 @@
 ﻿namespace DemoConsoleApp.Tests;
 
-public class CalculatorTests
+public class UnitTest1
 {
     [Fact]
     public void Add_ReturnsCorrectValue()
