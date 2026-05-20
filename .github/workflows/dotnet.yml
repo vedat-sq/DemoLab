@@ -27,8 +27,8 @@ jobs:
       run: dotnet build --no-restore --configuration Release
 
     - name: Run tests
-      run: dotnet test DemoConsoleApp.Tests/DemoConsoleApp.Tests.csproj --no-build --verbosity normal
-
+      run: dotnet test DemoConsoleApp.Tests/DemoConsoleApp.Tests.csproj --verbosity normal
+    
     - name: Publish app
       run: dotnet publish DemoConsoleApp/DemoConsoleApp.csproj -c Release -o publish
 
